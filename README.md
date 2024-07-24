@@ -2,7 +2,7 @@
 Real-time Weather Application
 
 
-Developed a real-time weather application using React and Node.js.
+Developed a real-time weather application .
 
 
 Integrated with the OpenWeatherMap API to f etch and display weather data, providing real-time
