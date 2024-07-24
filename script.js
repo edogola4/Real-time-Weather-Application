@@ -19,7 +19,7 @@ let weather = {
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
         document.querySelector(".weather").classList.remove("loading");
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" +
+        document.body.style.backgroundImage = "url('background-image: url('https://picsum.photos/1600/900?random');" +
             name + "')";
 
     },
@@ -38,4 +38,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event) 
     }
 });
 
-weather.fetchWeather("Nairobi");
+weather.fetchWeather(" Nairobi ");
